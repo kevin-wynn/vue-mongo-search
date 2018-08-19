@@ -53,7 +53,7 @@ module.exports = [
   merge(commonConfig, {
     entry: path.resolve(__dirname + '/src/plugin.js'),
     output: {
-      filename: 'vue-search-mongo.min.js',
+      filename: 'vue-type-search.min.js',
     }
   }),
 
@@ -61,11 +61,11 @@ module.exports = [
   merge(commonConfig, {
     entry: path.resolve(__dirname + '/src/SearchMongo.vue'),
     output: {
-      filename: 'vue-search-mongo.js',
+      filename: 'vue-type-search.js',
       libraryTarget: 'umd',
 
       // These options are useful if the user wants to load the module with AMD
-      library: 'vue-search-mongo',
+      library: 'vue-type-search',
       umdNamedDefine: true
     }  
   })

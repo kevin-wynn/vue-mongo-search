@@ -1,14 +1,14 @@
 {
-  "name": "vue-mongo-search",
+  "name": "vue-type-search",
   "version": "1.0.0",
-  "description": "a quick and easy to use mongo/vue search",
-  "main": "dist/vue-search-mongo",
+  "description": "a quick and easy to use vue search component",
+  "main": "dist/vue-type-mongo",
   "scripts": {
     "build": "webpack --config ./webpack.config.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kevin-wynn/vue-mongo-search.git"
+    "url": "git+https://github.com/kevin-wynn/vue-type-search.git"
   },
   "keywords": [
     "vue",
@@ -21,9 +21,9 @@
   "author": "Kevin Wynn",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kevin-wynn/vue-mongo-search/issues"
+    "url": "https://github.com/kevin-wynn/vue-type-search/issues"
   },
-  "homepage": "https://github.com/kevin-wynn/vue-mongo-search#readme",
+  "homepage": "https://github.com/kevin-wynn/vue-type-search#readme",
   "dependencies": {
     "axios": "^0.18.0"
   },
