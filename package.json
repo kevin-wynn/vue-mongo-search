@@ -1,8 +1,8 @@
 {
   "name": "vue-type-search",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a quick and easy to use vue search component",
-  "main": "dist/vue-type-mongo",
+  "main": "dist/vue-type-search",
   "scripts": {
     "build": "webpack --config ./webpack.config.js"
   },
@@ -12,10 +12,7 @@
   },
   "keywords": [
     "vue",
-    "mongo",
     "search",
-    "mongodb",
-    "mongoose",
     "typeahead"
   ],
   "author": "Kevin Wynn",

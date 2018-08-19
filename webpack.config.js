@@ -59,7 +59,7 @@ module.exports = [
 
   // Config 2: For Node-based development environments
   merge(commonConfig, {
-    entry: path.resolve(__dirname + '/src/SearchMongo.vue'),
+    entry: path.resolve(__dirname + '/src/Search.vue'),
     output: {
       filename: 'vue-type-search.js',
       libraryTarget: 'umd',
