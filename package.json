@@ -1,6 +1,6 @@
 {
   "name": "vue-type-search",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a quick and easy to use vue search component",
   "main": "dist/vue-type-search",
   "scripts": {

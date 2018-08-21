@@ -59,8 +59,6 @@ export default {
           query: query
         }
       }).then((response) => {
-        console.log('response:', response);
-        
         this.searchResults = response.data;
         this.$emit('update', response.data)
       }).finally(() => {
