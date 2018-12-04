@@ -1,6 +1,6 @@
 {
   "name": "vue-type-search",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "a quick and easy to use vue search component",
   "main": "dist/vue-type-search",
   "scripts": {
@@ -21,9 +21,6 @@
     "url": "https://github.com/kevin-wynn/vue-type-search/issues"
   },
   "homepage": "https://github.com/kevin-wynn/vue-type-search#readme",
-  "dependencies": {
-    "axios": "^0.18.0"
-  },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",

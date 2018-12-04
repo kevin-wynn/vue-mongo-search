@@ -54,14 +54,15 @@ export default {
 
   methods: {
     search(query) {
-      axios.get(this.searchUrl, {
+      fetch(this.searchUrl, {
         params: {
           query: query
         }
       }).then((response) => {
+        response.json();
+      }).then((response) => {
         this.searchResults = response.data;
-        this.$emit('update', response.data)
-      }).finally(() => {
+        this.$emit('update', response.data)        
         this.isActive = true;
         this.loading = false;
       })
