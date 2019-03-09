@@ -1,4 +1,3 @@
-
 # Vue Type Search
 
 A simple vue component for searching using an input to submit to an endpoint when the user stops typing for 1 second.
@@ -16,31 +15,37 @@ Inside the `v-search` you will need to define what to do with your search result
 
 ```vue
 <template>
-  <v-search ref='searchContainer' searchText='Search movies, shows, and actors' searchUrl='/api/search' @update='onSearchUpdate'>
+  <v-search
+    ref="searchContainer"
+    searchText="Search movies, shows, and actors"
+    searchUrl="/api/search"
+    @update="onSearchUpdate"
+  >
     <div class="title" v-for="movie in searchResults" :key="movie.id">
-      <router-link :to="'/movies/'+movie.id"><h2>{{movie.title}}</h2></router-link>
+      <router-link :to="'/movies/' + movie.id"
+        ><h2>{{ movie.title }}</h2></router-link
+      >
     </div>
   </v-search>
 </template>
 
 <script>
-  import Search from 'vue-type-search';
-  export default {
-    name: 'Voxhi',
-    components: {
-      'v-search': Search
-    },
-    data () {
-      return {
-        searchResults: ''
-      }
-    },
-    methods: {
-      onSearchUpdate (searchResults) {
-        this.searchResults = searchResults
-      }
+import Search from "vue-type-search";
+export default {
+  name: "Voxhi",
+  components: {
+    "v-search": Search
+  },
+  data() {
+    return {
+      searchResults: ""
+    };
+  },
+  methods: {
+    onSearchUpdate(searchResults) {
+      this.searchResults = searchResults;
     }
   }
+};
 </script>
-
 ```
